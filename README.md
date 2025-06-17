@@ -77,3 +77,29 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
+title: Instagram Profile Scraper API
+emoji: 📸
+colorFrom: purple
+colorTo: pink
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
+# Instagram Profile Scraper with AI Analysis
+
+FastAPI application that scrapes Instagram profiles and analyzes them using Google's Gemini AI.
+
+## Features
+
+- 📸 Profile scraping with Apify
+- 🧠 AI personality analysis with Gemini
+- 💬 Conversation starter generation
+- 🔄 Image proxy for CORS handling
+- 📊 Interactive API documentation
+
+## Usage
+
+Visit `/docs` for interactive API documentation.
