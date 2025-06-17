@@ -4,3 +4,5 @@ apify-client==1.7.1
 python-dotenv==1.0.0
 pydantic==2.7.4
 python-multipart==0.0.6
+httpx==0.27.0
+google-generativeai==0.3.2

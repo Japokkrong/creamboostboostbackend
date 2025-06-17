@@ -9,6 +9,10 @@ def get_apify_token():
     token = os.getenv("API_TOKEN", "apify_api_fxEcnGWLG4Ga3eEF0Nfz62tLs8YJU60F2nDB")
     return token
 
+def get_gemini_api_key():
+    """Get Gemini API key from environment variables"""
+    return os.getenv("GEMINI_API_KEY")
+
 def username_to_url(username: str) -> str:
     """Convert Instagram username to full URL"""
     # Remove @ if present and clean the username
